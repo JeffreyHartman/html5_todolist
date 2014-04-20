@@ -1,0 +1,38 @@
+﻿header {
+    font: bold 24px arial, verdana;
+}
+
+#todolist {
+    margin-top: 50px;
+    border: 1px solid #808080;
+    border-radius: 3px 5px;
+    min-height: 300px;
+}
+
+#todolist li {
+    margin: 20px;
+    border: 1px solid #b0abab;
+    border-radius: 3px 5px;
+    min-height: 6em;
+}
+
+.tasktext {
+    width: 80%;
+}
+
+#todolist .list-group-item  .row {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+#todolist li.completed_task div.task {
+    text-decoration: line-through;
+}
+
+h5 {
+    margin: 0;
+}
+
+#instructions {
+    margin-top: 10px;
+}

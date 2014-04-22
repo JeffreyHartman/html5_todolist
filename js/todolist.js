@@ -35,8 +35,7 @@ function initialize() {
         addTask(taskList[i]);
     }
     
-    /******  DISABLED FOR NOT BEHAVING  ********/
-    window.onunload = saveList();
+    $(window).on('beforeunload', saveList);
 }
 
 /**
